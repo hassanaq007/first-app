@@ -1,16 +1,53 @@
-# React + Vite
+# Student Portal - Directory Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based **Student Directory** web application developed as part of the Software Construction and Development Lab course. This application serves as the foundation for a growing student management system, designed to dynamically display student profiles, majors, graduation years, and academic performance metrics.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is part of a continuous lab curriculum. The primary focus of this phase is establishing a solid structural foundation, building reusable user interface components, and managing dynamic rendering using React. As the course progresses, this application will continuously evolve to integrate advanced state management, routing, backend APIs, and database solutions.
 
-## React Compiler
+## ✨ Features Implemented
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Dynamic Student Directory**: Displays student cards featuring key academic info including Major, Graduation Year, and CGPA.
+* **Conditional Visibility**: Leverages React `useState` hooks to toggle between showing and hiding specific student details via the "Hide Details / Show Details" buttons.
+* **Interactive View Tracking**: Uses state management to dynamically track and increment individual profile view counters when interacting with the directory.
+* **Component-Driven Architecture**: Structured using modular and reusable React components (e.g., student profile cards, navigation bar, footer).
+* **Pagination System**: Clean, user-friendly page navigation controls setup for handling large directory listings.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Concepts Covered
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework**: React.js
+* **State Management**: React Hooks (`useState`) for interactive UI layers
+* **Styling**: Modern CSS Grid and Flexbox layouts
+* **Core Concepts**: Component architecture, conditional rendering, event handling, and dynamic lists
+
+## 📅 Roadmap & Future Enhancements
+
+As this is a continuously growing application, upcoming lab modules will expand its capabilities to include:
+
+* **Global State & Effects**: Integrating hooks like `useEffect` to manage application lifecycles and advanced state managers.
+* **Dynamic Search & Filtering**: Activating the top navigation search bar to filter the directory by student names, majors, or graduation years.
+* **React Router Integration**: Creating separate views for individual student profiles and the management dashboard.
+* **Backend Connection**: Replacing mock data states with live REST API data payloads.
+* **Form Validation**: Powering up the "Add New Student" feature with validation checks and error messaging.
+
+## ⚙️ Local Development Setup
+
+To run this project locally, make sure you have [Node.js](https://nodejs.org) installed, then follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd student-portal-directory
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The application will spin up locally using Vite and should be accessible in your browser at `http://localhost:5173`.
