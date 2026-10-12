@@ -18,7 +18,7 @@ This project is part of a continuous lab curriculum. The primary focus of this p
 
 * **Frontend Framework**: React.js
 * **State Management**: React Hooks (`useState`) for interactive UI layers
-* **Styling**: Modern CSS Grid and Flexbox layouts
+* **UI Framework**: Bootstrap 5 (used for grid layouts, utility classes, buttons, and responsive navbar components)
 * **Core Concepts**: Component architecture, conditional rendering, event handling, and dynamic lists
 
 ## 📅 Roadmap & Future Enhancements
@@ -37,8 +37,8 @@ To run this project locally, make sure you have [Node.js](https://nodejs.org) in
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd student-portal-directory
+   git clone https://github.com/hassanaq007/first-app.git
+   cd first-app
    ```
 
 2. **Install dependencies:**
