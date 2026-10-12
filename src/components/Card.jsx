@@ -16,7 +16,7 @@ const Card = (props) => {
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
-
+                    <p className="card-text mb-0">ID: {props.id}</p>
                     <p className="card-text mb-2">Views: {views}</p>
 
                     {showDetails && (
