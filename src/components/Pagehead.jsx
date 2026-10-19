@@ -8,7 +8,7 @@ const Pagehead = () => {
         <div className='pagehead'>
             <nav className="navbar navbar-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand"><h3>Students</h3></a>
+                    <a className="navbar-brand"><h3 className="mb-0">Students</h3></a>
                     <button className="btn btn-primary" type="submit" onClick={ () => setShowAlert(true)}>Add New Student</button>
                 </div>
             </nav>
