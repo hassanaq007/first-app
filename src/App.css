@@ -7,14 +7,15 @@ body {
 }
 
 .breadnav{
-  padding: 15px 40px;
+  padding: 15px 30px 0px;
   font-size: large;
 }
 
 .pagehead {
-    padding: 8px 0px;
-    margin: -20px 80px 10px;
-    /* background-color: deepskyblue; */
+    padding: 8px 10px;
+    margin: 20px 50px 20px;
+    border-radius: 7px;
+    background-color: #00bfff87;
 }
 
 .pagehead h3 {
