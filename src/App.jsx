@@ -2,11 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
-import BreadCrumb from './components/BreadCrumb'
-import Card from './components/Card'
 import Footer from './components/Footer'
-import Pagination from './components/Pagination'
-import Pagehead from './components/Pagehead'
 
 // Imported Pages
 import HomePage from './pages/HomePage'
